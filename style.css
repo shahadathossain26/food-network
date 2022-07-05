@@ -3,13 +3,21 @@ body {
     margin: 0;
 }
 
-section {
+.flexible-area {
     display: flex;
     margin-bottom: 150px;
 }
 
 h1 {
     font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
 }
 
 .blue-color {
@@ -35,10 +43,40 @@ h1 {
     width: 90%;
 }
 
-.background-image {
+.about-me-area {
+    background-image: url(images/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.recipy-item img {
+    height: 350px;
+    width: 530px;
+}
 
-    display: flex;
+.recipy-item {
+    box-shadow: 10px 10px 15px gray;
+    border-radius: 10px;
+    width: 43%;
 
+    padding: 30px;
+    margin-top: 15px;
+}
 
+#recipy1 {
+    margin-left: 6%;
+    margin-right: 1%;
+}
+
+#recipy2 {
+    margin-left: 1%;
+    margin-right: 6%;
+}
+
+.footer-box {
+    box-shadow: 10px 10px 15px gray;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px 40px;
 }
