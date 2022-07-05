@@ -76,7 +76,13 @@ h3 {
 .footer-box {
     box-shadow: 10px 10px 15px gray;
     width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 20px 40px;
+    margin-left: 8%;
+    margin-right: 12%;
+    padding: 30px 140px;
+    border-radius: 15px;
+}
+
+.format {
+    font-size: 50px;
+    padding-left: 250px;
 }
