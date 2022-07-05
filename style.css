@@ -86,3 +86,27 @@ h3 {
     font-size: 50px;
     padding-left: 250px;
 }
+
+div {
+    display: inline;
+}
+
+.subscribe {
+    margin-left: 70px;
+    margin-right: 50px;
+    box-shadow: 10px 10px 15px gray;
+    border-radius: 15px;
+    display: flex;
+}
+
+.subscribers {
+    margin-left: 190px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+.background {
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
